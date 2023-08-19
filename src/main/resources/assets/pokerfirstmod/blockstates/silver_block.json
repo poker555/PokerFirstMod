@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "" :{ "model": "pokerfirstmod:block/silver_block"
+    }
+  }
+}
