@@ -31,15 +31,14 @@ import org.slf4j.Logger;
 @Mod(Mymod.MOD_ID)
 public class Mymod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "pokerfirstmod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public Mymod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+
 
         ModBlocks.register(modEventBus);
 
@@ -74,7 +73,6 @@ public class Mymod
         }
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
     {

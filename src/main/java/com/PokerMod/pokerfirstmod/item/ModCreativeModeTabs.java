@@ -12,7 +12,6 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = Mymod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs {
     public static CreativeModeTab INDUSTRY_TAB;
-
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event){
         INDUSTRY_TAB = event.registerCreativeModeTab(new ResourceLocation(Mymod.MOD_ID,"industry_tab")
