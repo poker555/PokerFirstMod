@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "pokerfirstmod:block/silver_ore"
+  }
+}

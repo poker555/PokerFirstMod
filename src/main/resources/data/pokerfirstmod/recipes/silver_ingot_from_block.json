@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "industry",
+  "ingredients": [
+    {
+      "item": "pokerfirstmod:silver_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "pokerfirstmod:silver_ingot"
+  }
+}

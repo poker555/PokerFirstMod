@@ -1,6 +1,7 @@
 {
-  "item.pokerfirstmod.silver": "銀錠",
+  "item.pokerfirstmod.silver_ingot": "銀錠",
   "block.pokerfirstmod.silver_block": "銀磚",
+  "block.pokerfirstmod.silver_ore": "銀礦",
   "creativemodetab.industry_tab": "工業模組"
 
 }

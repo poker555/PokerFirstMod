@@ -1,5 +1,6 @@
 {
-  "item.pokerfirstmod.silver": "Silver Ingot",
+  "item.pokerfirstmod.silver_ingot": "Silver Ingot",
   "block.pokerfirstmod.silver_block": "Block of Silver",
+  "block.pokerfirstmod.silver_ore": "Silver Ore",
   "creativemodetab.industry_tab": "Industry"
 }

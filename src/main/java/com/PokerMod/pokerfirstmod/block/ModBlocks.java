@@ -21,6 +21,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> SILVER_BLOCK = registerBlock("silver_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .requiresCorrectToolForDrops().strength(1f)));
+    public static final RegistryObject<Block> SILVER_ORE = registerBlock("silver_ore",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1f)));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
         registerBlockItem(name,toReturn);
