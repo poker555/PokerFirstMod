@@ -70,6 +70,9 @@ public class Mymod
         if (event.getTab()== CreativeModeTabs.NATURAL_BLOCKS){
             event.accept(ModBlocks.SILVER_ORE);
         }
+        if (event.getTab()==CreativeModeTabs.TOOLS_AND_UTILITIES){
+            event.accept(ModItems.SILVER_SWORD);
+        }
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
